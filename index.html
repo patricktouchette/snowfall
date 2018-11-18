@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <title>Snowfall</title>
+  <style>
+    html, body {
+      font-family: 'Lato', sans-serif;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+    }
+    header {
+      text-align: center;
+      background-color: #DDDDDD;
+      padding: 30px;
+    }
+    main {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    canvas {
+      margin: 20px;
+    }
+    footer {
+      margin: 0 auto;
+    }
+    button {
+      padding: 20px;
+      background: #DDDDDD;
+    }
+  </style>
+</head>
+<body>
+  <script type="module" src="main.js"></script>
+  <header>
+    <h1>SNOWFALL</h1>
+    <p>Let's you add a snow animation to a random image. </p>
+    <p>Photos from <a href="https://unsplash.com/">UNSPLASH</a></p>
+    <p>View project on <a href="https://github.com/patricktouchette/my-projects">Github</a></p>
+  </header>
+  <main id="output">
+    <!-- Images go here -->
+  </main>
+
+  <footer>
+    <button id="addImage">Add random image</button>
+  </footer>
+
+</body>
+</html>
