@@ -1,4 +1,4 @@
-import {Background, createBackground, drawBackground} from './Background.js';
+import {createBackground, drawBackground} from './Background.js';
 import {clearScreen, createSnowflakes, resetSnowflakes} from './animation.js';
 
 export class AnimatedImage {
